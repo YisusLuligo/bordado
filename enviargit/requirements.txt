@@ -1,0 +1,18 @@
+
+# Dependencias principales
+Django==5.2.1
+djangorestframework==3.15.1
+django-cors-headers==4.1.0
+
+# Para crear ejecutables
+pyinstaller==6.10.0
+auto-py-to-exe==2.44.1
+
+# Dependencias adicionales para PyInstaller
+altgraph==0.17.4
+pefile==2023.2.7
+pywin32-ctypes==0.2.2
+
+# Utilidades
+pathlib2==2.3.7
+setuptools==69.0.0
