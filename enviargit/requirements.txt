@@ -1,0 +1,22 @@
+# Dotaciones Yazz - Sistema de Gestión de Bordados
+# Requirements actualizado para SQLite (sin dependencias de MySQL)
+
+# Django Framework
+Django>=5.2.1,<5.3
+djangorestframework>=3.15.0
+
+# CORS para conectar con React
+django-cors-headers>=4.3.0
+
+# Utilidades de desarrollo
+python-decouple>=3.8  # Para variables de entorno
+Pillow>=10.0.0        # Para manejo de imágenes (si necesitas uploads)
+
+# Desarrollo y testing (opcional)
+django-debug-toolbar>=4.2.0  # Para debugging en desarrollo
+
+# Producción (opcional - para cuando quieras desplegar)
+gunicorn>=21.2.0      # Servidor WSGI
+whitenoise>=6.5.0     # Servir archivos estáticos
+
+# Nota: SQLite viene incluido con Python, no necesita instalación adicional
